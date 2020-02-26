@@ -8,14 +8,15 @@
 }
 
 .active {
-    display: block;
+    display: flex;
 }
 
 .image-gallery {
-    width: 100%;
+    max-width: 100%;
+    max-height: 80vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
 .btns {
@@ -23,7 +24,7 @@
     display:flex;
     /* justify-content: space-around; */
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .btn {
